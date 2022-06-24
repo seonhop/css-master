@@ -4,23 +4,14 @@
     height: 100vh;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: repeat(4, 100px);
+    grid-auto-rows: 100px;
+    grid-auto-flow: column;
 }
 
-.header {
+.item:nth-child(odd) {
     background-color: tomato;
-    align-self: end;
-    justify-self: center;
-    place-self: center end;
 }
 
-.content {
-    background-color: teal;
-}
-
-.nav {
+.item:nth-child(even) {
     background-color: wheat;
-}
-
-.footer {
-    background-color: thistle;
 }
