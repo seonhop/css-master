@@ -4,13 +4,13 @@
     height: 100vh;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: repeat(4, 100px);
-    justify-content: end;
-    align-content: center;
-    place-content: end center;
 }
 
 .header {
     background-color: tomato;
+    align-self: end;
+    justify-self: center;
+    place-self: center end;
 }
 
 .content {
