@@ -1,0 +1,24 @@
+{
+  "name": "css-master",
+  "version": "1.0.0",
+  "description": "Nomadcoders CSS Master Class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seonhop/css-master.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seonhop/css-master/issues"
+  },
+  "homepage": "https://github.com/seonhop/css-master#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^7.0.1"
+  }
+}
